@@ -9,9 +9,21 @@
 }
 
 .box {
-  width: 450px;
-  height: 350px;
+  width: 500px;
+  height: 450px;
   background: #000000;
   border-radius: 20px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.363);
+}
+
+.li {
+  width: 400px;
+  padding: 15px;
+  color: #fff;
+  background-color: #151515;
+  list-style: none;
+  margin: 12px;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: relative;
 }
